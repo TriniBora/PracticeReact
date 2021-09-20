@@ -16,12 +16,12 @@ export default class Estado extends Component{
             contador:0,
         }
 
-        setInterval( () => {
-            //this.state.contador +=1 //esto es incorrecto, no puedo modificarlo directamente
-            this.setState( {
-                contador: this.state.contador + 1,
-            })
-        },1000)
+    //     setInterval( () => {
+    //         //this.state.contador +=1 //esto es incorrecto, no puedo modificarlo directamente
+    //         this.setState( {
+    //             contador: this.state.contador + 1,
+    //         })
+    //     },1000)
     }
     render() {
         return (
