@@ -9,6 +9,7 @@ import ComunicacionComponentes from './components/ComunicacionComponentes';
 import CicloVida from './components/CicloVida';
 import Estado from './components/Estado';
 import './App.css';
+import Formularios from './components/Formularios';
 
 function App() {
   return (
@@ -57,6 +58,8 @@ function App() {
           <ComunicacionComponentes />
           <hr />
           <CicloVida />
+          <hr />
+          <Formularios />
 
         </section>
       </header>
