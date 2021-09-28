@@ -10,6 +10,8 @@ import CicloVida from './components/CicloVida';
 import Estado from './components/Estado';
 import './App.css';
 import Formularios from './components/Formularios';
+import AjaxApis from './components/AjaxApis';
+import ContadorHooks from './components/ContadorHooks';
 
 function App() {
   return (
@@ -60,6 +62,10 @@ function App() {
           <CicloVida />
           <hr />
           <Formularios />
+          <hr />
+          <AjaxApis />
+          <hr />
+          <ContadorHooks titulo="Seguidores"/>
 
         </section>
       </header>
